@@ -1,0 +1,27 @@
+mysql> use MusicPlayer;
+Database changed
+mysql> show tables;
++-----------------------+
+| Tables_in_MusicPlayer |
++-----------------------+
+| MusicFiles            |
++-----------------------+
+1 row in set (0.00 sec)
+
+mysql> select * from MusicFiles;
++---------+----------------+---------------+---------------+---------------+-------------+
+| Song_ID | Song_Title     | Artist_Name   | Album_Name    | Song_Location | Description |
++---------+----------------+---------------+---------------+---------------+-------------+
+|       1 | Dusk Till Dawn | Zayn          | XXX           | A             | love        |
+|       2 | Kabira         | Arijit Singh  | YJHD          | C             | sad         |
+|       3 | You & I        | One Direction | One Direction | B             | love        |
+|       4 | Uptown Funk    | Bruno Mars    | ADRF          | B             | fun         |
+|       5 | Memories       | Maroon 5      | ETRY          | A             | feel good   |
+|       6 | Dusk Till Dawn | Shawn         | TYRD          | C             | happy       |
+|       7 | Enjoy Enjaami  | Dhee          | Solo          | D             | Fast beat   |
+|       8 | Only you       | Selene Gomez  | 13RW          | D             | love        |
+|       9 | Falling        | Harry Styles  | FSA           | C             | Melody      |
+|      11 | Kiwi           | Harry Styles  | SSDe          | A             | Fast        |
++---------+----------------+---------------+---------------+---------------+-------------+
+10 rows in set (0.00 sec)
+
